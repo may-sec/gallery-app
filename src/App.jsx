@@ -28,7 +28,7 @@ const App = () => {
 
   return (
     <div className='bg-black overflow-auto h-screen p-4 text-white'>
-    <h1 className='text-bold text-4xl text-center py-2'>Gallery App</h1>
+    <h1 className='text-bold text-4xl text-center py-2 font-bold'>Gallery App</h1>
       <div className='flex h-[82%] flex-wrap gap-4 p-2'>
         {printUserData}
       </div>
